@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100dvh - 30px - 30px);
+  margin: 30px auto;
+  gap: 30px;
+}
+
+.img {
+  position: relative;
+  width: 45%;
+  height: 100%;
+  border-radius: 2px;
+  background: #000 url(../img/index-banner.jpg) center center / cover no-repeat;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  width: 150px;
+}
+
+.login-col {
+  width: 55%;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+
+h1 span {
+  color: #007df6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: #f6faff;
+  font-family: 'Nunito sans', 'Open sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+input::placeholder {
+  font-family: 'Nunito sans', 'Open sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.password::-webkit-password-toggle-button {
+  width: 10px;
+  height: 10px;
+  /* background-size: contain; */
+}
+
+.error-email,
+.error-password {
+  height: 15px; 
+  color: #eb0000;
+  font-size: 12px;
+  margin-bottom: 5px; 
+}
+
+.forgot {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007df6;
+}
+
+button {
+  margin: 40px 0;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-login {
+  background-color: #007df6;
+  color: #fff;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+  background-color: #0073e2;
+}
+
+.btn-sign-up {
+  background-color: #fff;
+  color: #007df6;
+  border: 1px solid #007df6;
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-sign-up:hover {
+  background-color: #fcfcfc;
+}
+
+.columns {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.col p {
+  font-size: 15px;
+  color: #007df6;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.col p:hover {
+  color: #005fbb;
+}
