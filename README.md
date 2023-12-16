@@ -14,4 +14,4 @@ JobForge is a platform designed to connect professionals, facilitate networking,
 - **Content Sharing:** Share articles, images, and videos to showcase your expertise.
 - **Job Listings:** Explore job opportunities and apply directly through the platform.
 
-Click [here]() to see the live demo of the app.
+Click [here](https://gurlinkaur23.github.io/job-forge/) to see the live demo of the app.
